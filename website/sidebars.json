@@ -1,0 +1,8 @@
+{
+  "docs": {
+    "Introduction": ["motivation", "how-it-works"],
+    "Getting Started": ["getting-started/installation", "getting-started/setup"],
+    "Customising": ["customising/adding-metadata"],
+    "Contributing": ["contributing/contributing"]
+  }
+}
