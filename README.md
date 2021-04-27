@@ -1,1 +1,1 @@
-# Docs
+# Eventbridge Atlas Docs

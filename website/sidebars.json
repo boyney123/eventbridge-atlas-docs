@@ -3,6 +3,7 @@
     "Introduction": ["motivation", "how-it-works"],
     "Getting Started": ["getting-started/installation", "getting-started/setup"],
     "Customising": ["customising/adding-metadata"],
+    "Other Projects": ["other/awsicons", "other/mockit"],
     "Contributing": ["contributing/contributing"]
   }
 }
