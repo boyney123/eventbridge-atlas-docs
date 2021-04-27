@@ -14,6 +14,8 @@ You can:
 
 The magic happens in `/data/event-metadata.json`.
 
+> Once you are done editing the event-metadata.json file, you have to rebuild the docs.
+
 ###### Example event-metadata.json
 
 ```js

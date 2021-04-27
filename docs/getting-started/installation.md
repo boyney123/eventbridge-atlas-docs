@@ -18,7 +18,7 @@ Getting up and running with EventBridge Atlas should take a few minutes (hopeful
 #### Cloning the project
 
 ```sh
-git clone https://github.com/boyney123/eventbridge-atlas.git
+git clone git@github.com:boyney123/eventbridge-atlas.git
 ```
 
 _Install the dependencies_
