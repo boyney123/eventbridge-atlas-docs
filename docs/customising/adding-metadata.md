@@ -94,7 +94,7 @@ As seen in our example below, any JSON payload against the `example` property wi
 }
 ```
 
-###### Example of what your event example will look like
+###### Example of what your event example will look like (using the docuowl parser)
 
 ![Events](/img/docs/adding-metadata/example.png 'Example of Example :)')
 
