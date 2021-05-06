@@ -1,9 +1,9 @@
 {
   "docs": {
     "Introduction": ["motivation", "how-it-works"],
-    "Getting Started": ["getting-started/installation", "getting-started/setup", "getting-started/running-docuowl", "getting-started/running-asyncapi"],
+    "Getting Started": ["getting-started/installation", "getting-started/setup", "getting-started/running-slate", "getting-started/running-asyncapi", "getting-started/running-docuowl"],
     "Customising": ["customising/adding-metadata"],
-    "Parsers": ["parsers/intro", "parsers/docuowl", "parsers/asyncapi"],
+    "Parsers": ["parsers/intro", "parsers/slate", "parsers/asyncapi", "parsers/docuowl"],
     "Releases": ["release-notes/0_1", "release-notes/0_2"],
     "Other Projects": ["other/awsicons", "other/mockit"],
     "Contributing": ["contributing/contributing"]

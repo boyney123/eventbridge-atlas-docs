@@ -42,4 +42,4 @@ Now you have setup your `.env` file we are good to go.
 
 EventBridge Atlas allow you to select which format you would like to generate your docs with.
 
-Continue reading to get started with the `docuowl` output.
+Continue reading to get started with the `slate` output.

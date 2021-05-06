@@ -37,9 +37,12 @@
     </script>
   </head>
   <body class="homepage">
+    <div class="heading-wrapper">
     <header class="container header">
       <h1 class="app-logo">
-        <img width="36px" src="img/icons/logo-full.png" alt="Logo" />
+        <img width="36px" src="../img/eventbridge-icon.svg" alt="Logo" />
+        <!-- <img src="../img/emoji.svg" alt="emoji icon" /> -->
+        <!-- <img width="36px" src="img/icons/logo-full.png" alt="Logo" /> -->
         <span>EventBridge Atlas</span>
       </h1>
       <nav>
@@ -66,7 +69,7 @@
     <div class="hero container">
       <div class="col-6 mobile-col-12">
         <h1>Explore Your Events</h1>
-        <p>Document, Discover and Share AWS EventBridge Schemas </p>
+        <p><span class="shout">Document</span>, <span class="shout">Discover</span> and <span class="shout">Share</span> AWS EventBridge Schemas </p>
         <!-- <p>GitHub Status Checks as JS Functions</p> -->
         <a href="/docs/getting-started/installation" class="hero-button cta-button">Get Started</a>
       </div>
@@ -76,11 +79,12 @@
       </div>
     </div>
     <div class="wave"></div>
+  </div>
     <div class="benefits">
       <div class="container centred-content ">
         <h2>Setup within minutes</h2>
         <p>
-          <strong>Features</strong>: Parses schemas into documentation, shows rules matched to your events, add metadata to each event property, fuzzy search, show example events, light & dark more, and more...
+          <strong>Features</strong>: Parses your AWS schemas into documentation, choose the documention output, shows rules matched to your events, add metadata to each event property, show example events, light & dark more, and more...
         </p>
         <img src="img/full-app-screenshot.png" width="75%" alt="contributors bot screenshot" />
       </div>
@@ -137,8 +141,8 @@
             </p>
           </li>
           <li>
-            <h3>2. Import your schemas</h3>
-            <p>Use our script to download your EventBridge schemas and we will <a href="/docs/how-it-works">generate documentation automatically.</a></p>
+            <h3>2. Select documentation output</h3>
+            <p>EventBridge Atlas supports Docuowl, Slate and AsyncAPI outputs. Select which one you want and <a href="/docs/how-it-works">generate documentation automatically.</a></p>
           </li>
           <li>
             <h3>3. Customise</h3>

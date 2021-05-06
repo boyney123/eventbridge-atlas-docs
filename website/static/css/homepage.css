@@ -1,6 +1,6 @@
 /*--Clear & Set fonts--*/
 .homepage * {
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 .homepage body {
@@ -17,7 +17,7 @@
 :root {
   --ppl-100: #0f0b33;
   --ppl-60: #2d2298;
-  --ppl-10: #f2f2fb;
+  --ppl-10: #273036;
   --primary-text: #0f0b33;
   --secondary-text: #312f45;
   --tertiary-text: #615e7c;
@@ -174,7 +174,7 @@ p {
 .cta-button {
   text-decoration: none;
   padding: 28px 48px;
-  background: #2d2298;
+  background: #e91e63;
   border-radius: 5px;
   border: none;
   color: #fff;
@@ -187,7 +187,7 @@ p {
 
 .cta-button:hover {
   transition: 0.35s;
-  background: #1e1576;
+  background: #ae184a;
   color: #fff;
   box-shadow: 0 18px 28px 0 rgba(110, 96, 230, 0.2), 0 8px 12px 0 rgba(45, 34, 152, 0.09);
 }
@@ -227,7 +227,7 @@ p {
 }
 
 .ribbon:after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   bottom: 0;
@@ -297,7 +297,7 @@ li.github-star {
 
 /*--Hero --*/
 .wave {
-  content: "";
+  content: '';
   background: url(../img/bg-swoop.svg) no-repeat;
   background-size: 2045px 380px;
   bottom: -40px;
@@ -319,6 +319,7 @@ li.github-star {
 }
 .homepage .hero img {
   width: 100%;
+  box-shadow: 0px 3px 24px #757575;
 }
 .homepage .hero h1 {
   font-size: 52px;
@@ -331,6 +332,15 @@ li.github-star {
   margin-bottom: 20px;
 }
 
+.homepage .hero .sub {
+  font-size: 16px;
+}
+
+.homepage .hero .shout {
+  color: #ff0088;
+  font-weight: bold;
+}
+
 /*--Benefits--*/
 .benefits {
   background: var(--ppl-10);
@@ -339,11 +349,12 @@ li.github-star {
 }
 .benefits h2 {
   margin-bottom: 12px;
+  color: #fbfbfb;
 }
 .benefits p {
   margin-bottom: 32px;
   font-size: 20px;
-  color: #2d2298;
+  color: #e2e2e2;
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.5;
@@ -351,6 +362,7 @@ li.github-star {
 }
 .benefits img {
   max-width: 100%;
+  box-shadow: 0px 3px 24px #555555;
 }
 
 /*--How To--*/
@@ -416,8 +428,8 @@ li.github-star {
 }
 .tile a:hover {
   transition: 0.35s;
-  border: 2px solid #6e60e6;
-  background: var(--ppl-10);
+  border: 2px solid #e91e63;
+  background: #f7f7f7;
 }
 
 .tile img {
@@ -471,7 +483,7 @@ li.github-star {
 
 .final-cta h4 {
   margin-bottom: 20px;
-  color: var(--colored-text);
+  color: #fbfbfb;
 }
 
 .final-cta .cta-button {
@@ -480,14 +492,20 @@ li.github-star {
 
 /*--Footer--*/
 .homepage__footer {
-  background: var(--ppl-60);
+  background: #e91e63;
   color: #fff;
-  padding: 20px;
+  padding: 10px 10px 0px 10px;
 }
 
 .homepage__footer p {
   text-align: center;
   color: white;
+}
+
+.homepage__footer a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* Existing custom css */
@@ -581,14 +599,14 @@ li.github-star {
   }
 
   .homepage .hero {
-    margin-bottom: -500px;
+    margin-bottom: -350px;
     padding-bottom: 20px;
     padding-top: 10px;
   }
 
   .benefits {
     margin-top: -5px;
-    padding-top: 140px;
+    padding-top: 10px;
   }
   .benefits h2 {
     font-size: 28px;
@@ -632,4 +650,8 @@ li.github-star {
   .cta-button {
     width: 80%;
   }
+}
+
+.text-sm {
+  font-size: 10px;
 }
