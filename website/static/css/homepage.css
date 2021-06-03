@@ -341,6 +341,10 @@ li.github-star {
   font-weight: bold;
 }
 
+.benefits.dark {
+  background: var(--ppl-60);
+}
+
 /*--Benefits--*/
 .benefits {
   background: var(--ppl-10);
