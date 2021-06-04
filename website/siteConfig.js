@@ -32,6 +32,8 @@ const siteConfig = {
   onPageNav: 'separate', // On page navigation for the current documentation page.
   cleanUrl: true, // No .html extensions for paths.
 
+  separateCss: ['print-953e3353.css', 'screen-c9d8fa83.css', 'styles.min.css'],
+
   // Show documentation's last contributor's name.
   enableUpdateBy: true,
   enableUpdateTime: true,
