@@ -4,6 +4,7 @@
     "Getting Started": [
       "getting-started/installation",
       "getting-started/setup",
+      "getting-started/populate-eventmetadata",
       "getting-started/running-slate",
       "getting-started/running-asyncapi",
       "getting-started/running-docuowl",
@@ -11,7 +12,7 @@
     ],
     "Customising": ["customising/adding-metadata"],
     "Parsers": ["parsers/intro", "parsers/slate", "parsers/asyncapi", "parsers/docuowl", "parsers/flow"],
-    "Releases": ["release-notes/0_1", "release-notes/0_2", "release-notes/0_3", "release-notes/0_4"],
+    "Releases": ["release-notes/1_0_0", "release-notes/0_4", "release-notes/0_3", "release-notes/0_2", "release-notes/0_1"],
     "Other Projects": ["other/awsicons", "other/mockit"],
     "Contributing": ["contributing/contributing"]
   }
