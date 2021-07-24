@@ -18,7 +18,7 @@ You could split **EventBridge Atlas** into these parts.
 
 When you start the application it will require access to your AWS account (.env file).
 
-The `aws-cdk` is used to fetch:
+The `aws-sdk` is used to fetch:
 
 - Your schemas
 - Information about your Registry and Eventbus
