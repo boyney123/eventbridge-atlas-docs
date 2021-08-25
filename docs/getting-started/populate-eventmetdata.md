@@ -1,28 +1,32 @@
 ---
 id: populate-eventmetadata
-title: Populating your Event Metdata
-sidebar_label: Populating your Event Metdata
+title: Populating your Metdata
+sidebar_label: Populating your Metdata
 ---
 
 To get the most out of EventBridge Atlas, we recommended you take advantage of the **metadata** feature.
 
-This allows you to provide descriptions for your Event detail properties and also examples.
+This allows you to provide descriptions and maintainers for your event sources and also document your event properties and also show examples of your events in action.
 
 ##### Getting Started
 
-Populating data takes seconds, just run the following command:
+Populating metadata takes seconds, just run the following command:
 
 ```bash
 npm run generate-eventmetadata
 ```
 
-This will generate folders within your `/data` directory. Each folder will contain the `source` and `event`.
+This will generate folders within your `/data` directory. Each folder will contain the `source`, `event` and `source-metadata` files.
 
-For example you will see `/data/{event-source}/{detailType}.json`.
+For example you will see:
 
-Within this file you will see properties you can add descriptions too and also the example payload.
+- `/data/{event-source}/{detailType}.json`. (Metadata for each event)
+- `/data/{event-source}/source-metadata.json`. (Metadata for the source itself)
 
-##### Example
+Within the event metadata file you will see properties you can add descriptions too and also the example payload.
+Within the source metadata file you will see placeholders where you can add source descriptions and maintainers.
+
+##### Example (Event Metadata)
 
 Here is an example of what will be generated for you
 
@@ -110,4 +114,13 @@ Here is an example of what will be generated for you
 }
 ```
 
+##### Example (Source Metadata)
 
+Here is an example of what will be generated for you
+
+```js
+{
+    "description": "", // Write your source description
+    "maintainers": [] // A list of teams/people that maintain this source of events
+}
+```
