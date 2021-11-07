@@ -1,7 +1,7 @@
 ---
 id: populate-eventmetadata
-title: Populating your Metdata
-sidebar_label: Populating your Metdata
+title: Populating your Metadata
+sidebar_label: Populating your Metadata
 ---
 
 To get the most out of EventBridge Atlas, we recommended you take advantage of the **metadata** feature.
