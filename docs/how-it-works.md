@@ -59,6 +59,6 @@ The wrapup stage is called and used to wrap up what ever you want, maybe extra t
 - [docuowl](https://github.com/docuowl/docuowl)
 - [asyncapi](https://www.asyncapi.com/)
 
-#### 3. HTML Ouput
+#### 3. HTML Output
 
 Each parser will generate static HTML which is great. You can run this locally using our commands (more on this later), or host wherever you like.
